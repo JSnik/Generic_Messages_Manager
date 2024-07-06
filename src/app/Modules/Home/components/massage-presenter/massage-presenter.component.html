@@ -1,0 +1,10 @@
+<div *ngFor="let message of messages">
+  <div class="message">
+    <div *ngIf="isBase64(message.message); else textMessage">
+      <img [src]="'data:image/png;base64,' + message.message" />
+    </div>
+    <ng-template #textMessage>
+      <p>{{ message.message }}</p>
+    </ng-template>
+  </div>
+</div>
