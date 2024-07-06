@@ -1,5 +1,3 @@
-# user-dashboard
-- გამოყენებულია შემდეგი ვერსიები: Angular CLI 15, Node 16.15.1, npm 8.11.0
-- Commands: npm install, ng serve/npm run start
-- UI/UX-ის თვის გამოყენებულია Angular material, ხოლო Core ლოგიკებში კი გამოყენებულია შემდეგი პატერნები: 
-Lazy loading, change detection: OnPush, rx.js, Dependency Injection, Dummy components, shared components და სხვა...
+- to run the server and the front end project write in terminal next commands: json-server --watch db.json, ng serve or npm run start
+- We have login page where u can login with existing user: admin@gmail.com, admin123
+- or you can register new user to navigate on home page...
